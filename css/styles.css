@@ -1,0 +1,83 @@
+/* 
+Author: Isaiah Earley
+File Name: styles.css
+Date: 09/24/2022
+*/
+
+
+
+/* CSS Presets */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+img {
+    max-width: 100%;
+    display: block; 
+}
+
+/* Style Header */
+header {
+    text-align: center;
+    margin: 25px 80px; 
+    border-bottom: 1px;
+    border-color: white;
+    border-style: solid;
+    
+}
+
+
+
+/* Style Nav */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+nav li a { 
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 9em;
+    text-align: center;
+}
+
+
+/* Style Main */
+main {
+    padding: 2%;
+    margin: 80px 200px 80px 200px; 
+    overflow: auto;
+    background-color: white;
+}
+main p {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+/* Style Footer */
+footer {
+    text-align: center;
+}
+
+
+
+
+
+/* Style Attributes class, id */
+
+
+
+
+
