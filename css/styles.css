@@ -11,8 +11,11 @@ Date: 09/24/2022
     border: 0;
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: white;
+    background-color: rgb(23, 23, 23);
+    color: rgb(250, 250, 250);
+}
+html {
+    font-family: Fraunces, serif, sans-serif;
 }
 img {
     max-width: 100%;
@@ -53,11 +56,9 @@ main {
     padding: 2%;
     margin: 80px 200px 80px 200px; 
     overflow: auto;
-    background-color: white;
 }
 main p {
-    background-color: white;
-    color: black;
+
 }
 
 
