@@ -18,19 +18,20 @@ html {
     font-family: Fraunces, serif, sans-serif;
 }
 img {
-    max-width: 100%;
+    max-width: 100%; 
     display: block; 
 }
 
 /* Style Header */
 header {
+    max-width: 100%;
     text-align: center;
     margin: 25px 80px; 
     border-bottom: 1px;
     border-color: white;
     border-style: solid;
-    
 }
+
 
 
 
@@ -46,23 +47,22 @@ nav li {
 nav li a { 
     text-decoration: none;
     display: block;
-    padding: 0.5em 9em;
+    padding: 0.5em 7em;
     text-align: center;
+    color: rgba(250, 250, 250, .45)
 }
+
 
 
 /* Style Main */
 main {
     padding: 2%;
     margin: 80px 200px 80px 200px; 
-    overflow: auto;
+    text-align: center;
 }
 main p {
-
+    
 }
-
-
-
 
 
 
@@ -70,6 +70,7 @@ main p {
 /* Style Footer */
 footer {
     text-align: center;
+    overflow: none;
 }
 
 
@@ -77,8 +78,31 @@ footer {
 
 
 /* Style Attributes class, id */
-
-
-
+#persona { 
+    display: inline-block;
+    margin-bottom: 25px;
+    text-align: center;
+    height: 250px;
+}
+#persona img { 
+    height: 250px;
+}
+#blog1, #blog2, #blog3 {
+    margin: 40px; 
+    padding: 5%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+#project1, #project2, #project3 {
+    display: inline-block;
+    float: inherit; 
+    padding: 13%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin: 20px;
+    overflow: none;
+}
 
 
