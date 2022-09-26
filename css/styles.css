@@ -22,6 +22,12 @@ img {
     display: block; 
 }
 
+
+/* Style rules for mobile viewport */ 
+
+
+
+
 /* Style Header */
 header {
     max-width: 100%;
@@ -30,12 +36,20 @@ header {
     border-bottom: 1px;
     border-color: white;
     border-style: solid;
+    /* Mobile Adjustments */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 
 
 
 /* Style Nav */
+nav {
+    padding: 0%;
+    margin-bottom: 100%;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -51,7 +65,9 @@ nav li a {
     text-align: center;
     color: rgba(250, 250, 250, .45)
 }
-
+nav li a:hover {
+   color: white;
+}
 
 
 /* Style Main */
@@ -97,7 +113,7 @@ footer {
 #project1, #project2, #project3 {
     display: inline-block;
     float: inherit; 
-    padding: 13%;
+    padding: 12%;
     border-style: solid;
     border-color: white;
     border-width: 1px;
