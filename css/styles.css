@@ -71,16 +71,23 @@ nav li a:hover {
    color: white;
 }
 
+/* Show mobile class, hide tablet-desktop class*/
+.mobile {
+    display: block;
+}
+.tablet-desktop {
+    display: none;
+}
+
+
+
 
 /* Style Main */
 main {
     padding: 2%;
-    margin: 80px 200px 80px 200px; 
     text-align: center;
 }
-main p {
-    
-}
+
 
 
 
@@ -106,21 +113,53 @@ footer {
     height: 250px;
 }
 #blog1, #blog2, #blog3 {
-    margin: 40px; 
+    margin: 1%; 
     padding: 5%;
     border-style: solid;
     border-color: white;
     border-width: 1px;
+    border-radius: 30px;
 }
 #project1, #project2, #project3 {
     display: inline-block;
     float: inherit; 
     padding: 12%;
+    border-radius: 30px;
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    margin: 20px;
+    margin: 1%;
     overflow: none;
 }
+.tel-link {
+    background-color: rgb(237, 191, 79);
+    padding: 1%;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 25%;
+    text-align: center;
+    border-radius: 30px;
+}
+.tel-link a {
+    color: rgb(237, 191, 79);
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+}
+#contact {
+    display: block;
+    margin-bottom: 2%;
+}
+#contact a {
+    margin: 2%;
+    font-size: 1.3em;
+    padding: 1%;
+    text-decoration: none;
+    background-color: rgb(237, 191, 79);
+    border-radius: 40px;
+    color:rgba(250, 250, 250, .90);
+}
+#contact a:hover {
+    color: white;
 
-
+}
