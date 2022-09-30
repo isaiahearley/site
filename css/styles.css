@@ -95,7 +95,6 @@ main {
 /* Style Footer */
 footer {
     text-align: center;
-    overflow: none;
 }
 
 
@@ -129,7 +128,6 @@ footer {
     border-color: white;
     border-width: 1px;
     margin: 1%;
-    overflow: none;
 }
 .tel-link {
     background-color: rgb(237, 191, 79);
@@ -160,6 +158,9 @@ footer {
     color:rgba(250, 250, 250, .90);
 }
 #contact a:hover {
-    color: white;
-
+    color: rgb(23, 23, 23);
+}
+#map {
+    height: 50%;
+    border: 2px solid rgb(237, 191, 79);
 }
