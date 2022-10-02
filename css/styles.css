@@ -117,13 +117,11 @@ footer {
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    border-radius: 30px;
 }
 #project1, #project2, #project3 {
     display: inline-block;
     float: inherit; 
     padding: 12%;
-    border-radius: 30px;
     border-style: solid;
     border-color: white;
     border-width: 1px;
@@ -154,7 +152,6 @@ footer {
     padding: 1%;
     text-decoration: none;
     background-color: rgb(237, 191, 79);
-    border-radius: 40px;
     color:rgba(250, 250, 250, .90);
 }
 #contact a:hover {
@@ -163,4 +160,7 @@ footer {
 #map {
     height: 50%;
     border: 2px solid rgb(237, 191, 79);
+}
+.corner {
+    border-radius: 30px;
 }
