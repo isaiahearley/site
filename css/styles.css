@@ -21,13 +21,6 @@ img {
     max-width: 100%; 
     display: block; 
 }
-
-
-
-
-/* Style rules for mobile viewport */ 
-@media all and (min-width: 300px) and (max-width: 1122px) {
-/* Style Header */
 header {
     max-width: 100%;
     text-align: center;
@@ -40,11 +33,19 @@ header {
     position: sticky;
     top: 0;
 }
+.contact-img{ 
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+}
 
+/* Style rules for mobile viewport */ 
+@media all and (min-width: 300px) and (max-width: 1122px) {
 /* Style Nav */
 nav {
     padding: 0%;
-    margin-bottom: 20%;
+    margin-bottom: 8%;
 }
 nav ul {
     list-style-type: none;
@@ -154,23 +155,10 @@ footer {
 
 /*Media Screen for Tablets in landscape orientation, laptops, and small desktop monitors*/
 @media screen and (min-width: 1123px) {
-/* Style Header */
-header {
-    max-width: 100%;
-    text-align: center;
-    margin: 25px 80px; 
-    border-bottom: 1px;
-    border-color: white;
-    border-style: solid;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
 /* Style Nav */
 nav {
     padding: 0%;
-    margin-bottom: 20%;
+    margin-bottom: 8%;
 }
 nav ul {
     list-style-type: none;
