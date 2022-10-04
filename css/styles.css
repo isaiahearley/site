@@ -23,11 +23,10 @@ img {
 }
 
 
+
+
 /* Style rules for mobile viewport */ 
-
-
-
-
+@media all and (min-width: 300px) and (max-width: 1122px) {
 /* Style Header */
 header {
     max-width: 100%;
@@ -41,9 +40,6 @@ header {
     position: sticky;
     top: 0;
 }
-
-
-
 
 /* Style Nav */
 nav {
@@ -79,27 +75,16 @@ nav li a:hover {
     display: none;
 }
 
-
-
-
 /* Style Main */
 main {
     padding: 2%;
     text-align: center;
 }
 
-
-
-
-
 /* Style Footer */
 footer {
     text-align: center;
 }
-
-
-
-
 
 /* Style Attributes class, id */
 #persona { 
@@ -163,4 +148,132 @@ footer {
 }
 .corner {
     border-radius: 30px;
+}
+}
+
+
+/*Media Screen for Tablets in landscape orientation, laptops, and small desktop monitors*/
+@media screen and (min-width: 1123px) {
+/* Style Header */
+header {
+    max-width: 100%;
+    text-align: center;
+    margin: 25px 80px; 
+    border-bottom: 1px;
+    border-color: white;
+    border-style: solid;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* Style Nav */
+nav {
+    padding: 0%;
+    margin-bottom: 20%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+nav li {
+    border-top: 1px solid white;
+    display: inline-block;
+}
+nav li a { 
+    text-decoration: none;
+    padding: 0.5em 7em;
+    color: rgba(250, 250, 250, .45);
+}
+nav li a:hover {
+   color: white;
+}
+
+/* Show tablet-desktop, hide mobile class*/
+.mobile {
+    display: none;
+}
+.tablet-desktop {
+    display: block;
+}
+
+/* Style Main */
+main {
+    padding: 2%;
+    text-align: center;
+}
+
+/* Style Footer */
+footer {
+    text-align: center;
+}
+
+/* Style Attributes class, id */
+#persona { 
+    display: inline-block;
+    margin-bottom: 25px;
+    text-align: center;
+    height: 250px;
+}
+#persona img { 
+    height: 250px;
+}
+#blog1, #blog2, #blog3 {
+    margin: 1%; 
+    padding: 5%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+#project1, #project2, #project3 {
+    display: inline-block;
+    float: inherit; 
+    padding: 12%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin: 1%;
+}
+.tel-link {
+    background-color: rgb(237, 191, 79);
+    padding: 1%;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 25%;
+    text-align: center;
+    border-radius: 30px;
+}
+.tel-link a {
+    color: rgb(237, 191, 79);
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+}
+#contact {
+    display: block;
+    margin-bottom: 2%;
+}
+#contact a {
+    margin: 2%;
+    font-size: 1.3em;
+    padding: 1%;
+    text-decoration: none;
+    background-color: rgb(237, 191, 79);
+    color:rgba(250, 250, 250, .90);
+}
+#contact a:hover {
+    color: rgb(23, 23, 23);
+}
+#map {
+    height: 50%;
+    border: 2px solid rgb(237, 191, 79);
+}
+.corner {
+    border-radius: 30px;
+}    
+
+
+
+
 }
