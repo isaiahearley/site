@@ -105,13 +105,13 @@ footer {
     border-width: 1px;
 }
 #project1, #project2, #project3 {
-    display: inline-block;
+    display: block;
     float: inherit; 
-    padding: 12%;
+    padding: 4%;
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    margin: 1%;
+    margin: 3% 10%;
 }
 .tel-link {
     background-color: rgb(237, 191, 79);
