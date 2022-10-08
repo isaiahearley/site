@@ -35,6 +35,10 @@ header {
     position: sticky;
     top: 0;
 }
+#footer1, #footer2, #footer3 {
+    display: inline-block;
+    margin: 0% 9%;
+}
 #project1, #project2, #project3 {
     display: block;
     float: inherit; 
@@ -45,29 +49,35 @@ header {
     margin: 3% 10% 3% 10%;
 }
 .contact-img-mobile {
-    width: 40%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8%;
 }
 .contact-img-tablet-desktop { 
-    width: 30%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8%;
 }
-.yellow-border p {
-    background-color: rgba(237, 191, 79, .7);
-    margin: 2% 20% 2% 20%;
+.yellow-border {
+    background-color: rgba(237, 191, 79, .6);
+    margin: 5% 30% 5% 30%;
     padding: 2%;
     border-radius: 30px;
 }
-.yellow-border p a {
-    background-color: rgba(237, 191, 79, .7);
+.yellow-border h1 {
+    text-align: left;
+    margin-bottom: 2%;
 }
-.yellow-border-footer p {
+.yellow-border p {
+    text-align: left;
+    margin-bottom: 2%;
+}
+.yellow-border-footer {
     background-color: rgb(237, 191, 79);
-    margin: 0 4% 0 4%; 
+    margin: 2% 4% 0% 4%; 
+    padding: 1%;
 }
 .yellow-border-footer p a {
     background-color: rgb(237, 191, 79);
@@ -84,6 +94,10 @@ header {
 }
 .bg-none {
     background-color: transparent;
+}
+.indent {
+    color: rgb(73, 242, 109);
+    font-size: 1.5em;
 }
 
 /* Style rules for tablet viewport */ 
@@ -323,6 +337,7 @@ main {
 
 /* Style Footer */
 footer {
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -385,5 +400,4 @@ footer {
 .corner {
     border-radius: 30px;
 }    
-
 }
