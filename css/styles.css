@@ -11,8 +11,10 @@ Date: 09/24/2022
     border: 0;
     margin: 0;
     padding: 0;
-    background-color: rgb(23, 23, 23);
     color: rgb(250, 250, 250);
+}
+body {
+    background-color: rgb(23, 23, 23);
 }
 html {
     font-family: Fraunces, serif, sans-serif;
@@ -56,7 +58,7 @@ header {
 }
 .yellow-border p {
     background-color: rgba(237, 191, 79, .7);
-    margin: 2% 10% 2% 10%;
+    margin: 2% 20% 2% 20%;
     padding: 2%;
     border-radius: 30px;
 }
@@ -74,6 +76,14 @@ header {
     font-size: 1.2em;
     font-style: italic;
     background-color: rgba(237, 191, 79, .7);
+}
+#map {
+    height: 50%;
+    border: 2px solid rgb(237, 191, 79);
+    margin-top: 5%;
+}
+.bg-none {
+    background-color: transparent;
 }
 
 /* Style rules for tablet viewport */ 
@@ -178,7 +188,6 @@ nav ul {
     text-align: center;
 }
 nav li {
-    border-top: 1px solid white;
     display: inline-block;
 }
 nav li a { 
@@ -287,7 +296,6 @@ nav ul {
     text-align: center;
 }
 nav li {
-    border-top: 1px solid white;
     display: inline-block;
 }
 nav li a { 
@@ -338,7 +346,7 @@ footer {
 #project1, #project2, #project3 {
     display: inline-block;
     float: inherit; 
-    padding: 2%;
+    padding: 12%;
     border-style: solid;
     border-color: white;
     border-width: 1px;
@@ -373,10 +381,6 @@ footer {
 }
 #contact a:hover {
     color: rgb(23, 23, 23);
-}
-#map {
-    height: 50%;
-    border: 2px solid rgb(237, 191, 79);
 }
 .corner {
     border-radius: 30px;
