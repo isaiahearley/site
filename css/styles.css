@@ -39,7 +39,13 @@ header {
     margin-right: auto;
     margin-bottom: 8%;
 }
-
+.yellow-border p {
+    background-color: rgb(237, 191, 79);
+    margin: 0 auto;
+}
+.yellow-border p a {
+    background-color: rgb(237, 191, 79);
+}
 
 
 /* Style rules for tablet viewport */ 
