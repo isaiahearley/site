@@ -61,7 +61,11 @@ header {
     margin-right: auto;
     margin-bottom: 8%;
 }
-
+.yellow-border {
+    background: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), 
+                linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+                linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
 .yellow-border-footer {
     background-color: rgb(237, 191, 79);
     margin: 2% 4% 0% 4%; 
@@ -84,7 +88,7 @@ header {
     background-color: transparent;
 }
 .indent {
-    color: rgb(247, 238, 163);
+    color: rgb(23, 23, 23);
     font-size: 1.5em;
 }
 footer a:hover {
@@ -174,7 +178,6 @@ footer {
     border-radius: 30px;
 }
 .yellow-border {
-    background-color: rgba(237, 191, 79, .6);
     margin: 5% 10% 5% 10%;
     padding: 2%;
     border-radius: 30px;
@@ -300,7 +303,6 @@ footer {
     margin: 0% 1.5%;
 }
 .yellow-border {
-    background-color: rgba(237, 191, 79, .6);
     margin: 5% 20% 5% 20%;
     padding: 2%;
     border-radius: 30px;
@@ -418,7 +420,6 @@ footer {
     margin: 0% 9%;
 }
 .yellow-border {
-    background-color: rgba(237, 191, 79, .6);
     margin: 5% 30% 5% 30%;
     padding: 2%;
     border-radius: 30px;
