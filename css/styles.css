@@ -35,9 +35,10 @@ header {
     position: sticky;
     top: 0;
 }
-#footer1, #footer2, #footer3 {
-    display: inline-block;
-    margin: 0% 9%;
+.shift {
+    text-decoration: none;
+    position: relative;
+    bottom: 10px; 
 }
 #project1, #project2, #project3 {
     display: block;
@@ -60,20 +61,7 @@ header {
     margin-right: auto;
     margin-bottom: 8%;
 }
-.yellow-border {
-    background-color: rgba(237, 191, 79, .6);
-    margin: 5% 30% 5% 30%;
-    padding: 2%;
-    border-radius: 30px;
-}
-.yellow-border h1 {
-    text-align: left;
-    margin-bottom: 2%;
-}
-.yellow-border p {
-    text-align: left;
-    margin-bottom: 2%;
-}
+
 .yellow-border-footer {
     background-color: rgb(237, 191, 79);
     margin: 2% 4% 0% 4%; 
@@ -96,10 +84,12 @@ header {
     background-color: transparent;
 }
 .indent {
-    color: rgb(73, 242, 109);
+    color: rgb(247, 238, 163);
     font-size: 1.5em;
 }
-
+footer a:hover {
+    color: white;
+}
 /* Style rules for tablet viewport */ 
 @media all and (min-width: 300px) and (max-width: 546px) {
 /* Style Nav */
@@ -123,9 +113,6 @@ nav li a {
     display: inline-block;
     padding: 0.5em 7em;
     color: rgba(250, 250, 250, .45);
-}
-nav li a:hover {
-   color: white;
 }
 
 /* Show mobile class, hide tablet-desktop class*/
@@ -186,7 +173,20 @@ footer {
 .corner {
     border-radius: 30px;
 }
-
+.yellow-border {
+    background-color: rgba(237, 191, 79, .6);
+    margin: 5% 10% 5% 10%;
+    padding: 2%;
+    border-radius: 30px;
+}
+.yellow-border h1 {
+    text-align: left;
+    margin-bottom: 2%;
+}
+.yellow-border p {
+    text-align: left;
+    margin-bottom: 2%;
+}
 }
 
 /* Style rules for tablet viewport */
@@ -295,7 +295,24 @@ footer {
 .corner {
     border-radius: 30px;
 }    
-
+#footer1, #footer2, #footer3 {
+    display: inline-block;
+    margin: 0% 1.5%;
+}
+.yellow-border {
+    background-color: rgba(237, 191, 79, .6);
+    margin: 5% 20% 5% 20%;
+    padding: 2%;
+    border-radius: 30px;
+}
+.yellow-border h1 {
+    text-align: left;
+    margin-bottom: 2%;
+}
+.yellow-border p {
+    text-align: left;
+    margin-bottom: 2%;
+}
 }
 /*Media Screen for desktop viewport*/
 @media screen and (min-width: 1123px) {
@@ -354,17 +371,13 @@ footer {
 #blog1, #blog2, #blog3 {
     margin: 1%; 
     padding: 5%;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
+    border: 0.1px solid #e5e7eb; 
 }
 #project1, #project2, #project3 {
     display: inline-block;
     float: inherit; 
     padding: 12%;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
+    border: 0.1px solid #e5e7eb; 
     margin: 1%;
 }
 .tel-link {
@@ -400,4 +413,22 @@ footer {
 .corner {
     border-radius: 30px;
 }    
+#footer1, #footer2, #footer3 {
+    display: inline-block;
+    margin: 0% 9%;
+}
+.yellow-border {
+    background-color: rgba(237, 191, 79, .6);
+    margin: 5% 30% 5% 30%;
+    padding: 2%;
+    border-radius: 30px;
+}
+.yellow-border h1 {
+    text-align: left;
+    margin-bottom: 2%;
+}
+.yellow-border p {
+    text-align: left;
+    margin-bottom: 2%;
+}
 }
