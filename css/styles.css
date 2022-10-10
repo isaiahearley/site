@@ -62,6 +62,9 @@ footer {
     position: relative;
     bottom: 10px; 
 }
+.clear {
+    clear: left;
+}
 .contact-img-mobile {
     width: 50%;
     margin-left: auto;
@@ -92,6 +95,13 @@ footer {
     height: 50%;
     border: 2px solid rgb(237, 191, 79);
     margin-top: 5%;
+}
+article ul {
+    line-height: 2em;
+}
+article li {
+    list-style-type: none;
+    padding-left: 4%;
 }
 .bg-none {
     background-color: transparent;
@@ -133,19 +143,22 @@ footer {
     font-size: .85em;
 }
 /* Style rules for tablet viewport */ 
-@media all and (min-width: 300px) and (max-width: 546px) {
-    header {
-        max-width: 100%;
-        text-align: center;
-        margin: 25px 80px; 
-        border-bottom: 1px;
-        border-color: white;
-        border-style: solid;
-        /* Mobile Adjustments */
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-    }
+@media all and (min-width: 300px) and (max-width: 558px) {
+header {
+    max-width: 100%;
+    text-align: center;
+    margin: 25px 80px; 
+    border-bottom: 1px;
+    border-color: white;
+    border-style: solid;
+    /* Mobile Adjustments */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.non-sticky{
+    position: relative;
+}
 /* Style Nav */
 nav {
     padding: 0%;
@@ -249,6 +262,25 @@ footer {
     border-color: white;
     border-width: 1px;
 }
+.article-grey-box {
+    margin: 3% 3% 3% 3%;
+    box-shadow: 0px 0px 2px white;
+    border-radius: 0.375em;
+    text-align: left;
+    font-family: 'Ubuntu Mono';
+    
+}
+article a {
+    color: green;
+}
+article h2 {
+    text-align: center;
+    padding-top: 3%;
+}
+article p {
+    padding: 4%;
+    line-height: 2em;
+}
                                                     /* Info */
 #contact {
     display: block;
@@ -288,7 +320,7 @@ footer {
 }
 
 /* Style rules for tablet viewport */
-@media all and (min-width: 547px) and (max-width: 1122px){
+@media all and (min-width: 559px) and (max-width: 1122px){
 /* Style Nav */
 nav {
     padding: 0%;
@@ -389,6 +421,25 @@ footer {
     border-style: solid;
     border-color: white;
     border-width: 1px;
+}
+.article-grey-box {
+    margin: 3% 8% 3% 8%;
+    box-shadow: 0px 0px 2px white;
+    border-radius: 0.375em;
+    text-align: left;
+    font-family: 'Ubuntu Mono';
+    
+}
+article a {
+    color: green;
+}
+article h2 {
+    text-align: center;
+    padding-top: 3%;
+}
+article p {
+    padding: 4%;
+    line-height: 2em;
 }
                                         /* Contact */
 .tel-link {
@@ -533,11 +584,12 @@ footer {
                                             /* blogs */
 
 .article-grey-box {
-    margin: 3% 30% 3% 30%;
+    margin: 3% 20% 3% 20%;
     box-shadow: 0px 0px 2px white;
     border-radius: 0.375em;
     text-align: left;
     font-family: 'Ubuntu Mono';
+    padding-bottom: 10%;
     
 }
 article a {
@@ -551,6 +603,16 @@ article p {
     padding: 4%;
     line-height: 2em;
 }
+.article-left {
+    padding-left: 4%;
+    margin: .1%;
+    margin-right: 30%;
+    float: left;
+}
+.article-right {
+    margin: .1%;
+}
+
                                             /* info */
 .tel-link {
     background-color: rgb(237, 191, 79);
