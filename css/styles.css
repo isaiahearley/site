@@ -12,12 +12,16 @@ Date: 09/24/2022
     margin: 0;
     padding: 0;
     color: rgb(250, 250, 250);
+    box-sizing: border-box;
 }
 body {
     background-color: rgb(23, 23, 23);
 }
 html {
     font-family: Fraunces, serif, sans-serif;
+}
+h1 {
+    text-shadow: 5px 5px 6px rgb(23, 23, 23);
 }
 img {
     max-width: 100%; 
@@ -40,17 +44,20 @@ footer {
 #footer1 a, #footer3 a{
     color: rgba(250, 250, 250, .45);
 }
+.corner {
+    border-radius: 30px;
+}    
+.small-corner {
+    border-radius: 0.375px;
+}
+.inner-corner {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
 .shift {
     text-decoration: none;
     position: relative;
     bottom: 10px; 
-}
-#project {
-    display: flex;
-    float: inherit; 
-    padding: 4%;
-    border: 0.1px solid white;
-    margin: 3% 10% 3% 10%;
 }
 .contact-img-mobile {
     width: 50%;
@@ -65,9 +72,13 @@ footer {
     margin-bottom: 8%;
 }
 .rgb-border {
-    background: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), 
-                linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
-                linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    background: linear-gradient(217deg, rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0) 80.71%), 
+                linear-gradient(127deg, rgba(0, 255, 0, 0.6), rgba(0, 255, 0, 0) 80.71%),
+                linear-gradient(336deg, rgba(0, 0, 255, 0.6), rgba(0, 0, 255, 0) 80.71%);
+}
+
+.grey-box h1{
+    text-align: left;
 }
 .guess {
     font-size: 1.2em;
@@ -83,13 +94,15 @@ footer {
     background-color: transparent;
 }
 .indent {
-    color: rgb(23, 23, 23);
+    color: rgb(82, 160, 173);
     font-size: 1.5em;
+    font-family: Georgia;
 }
 #footer1 a:hover, #footer3 a:hover {
     color: white;
 }
 #blog {
+    width: 80%;
     background:  
     linear-gradient(127deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 50.71%), 
     linear-gradient(227deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 10.71%),
@@ -99,10 +112,11 @@ footer {
     padding: 3%;  
     text-align: left;
     font-family: 'Comfortaa';
-    transition: 1s;
+    transition: .7s;
 }
 #blog:hover {
-    opacity: 1.5;
+    width: 95%;
+    opacity: 1;
 }
 #blog p {
     margin-top: 1.3%;
@@ -171,7 +185,9 @@ footer {
     text-align: center;
 }
 
-/* Style Attributes class, id */
+                                            /* Style Attributes class, id */
+
+                                            /* Index */
 #persona { 
     display: inline-block;
     margin-bottom: 25px;
@@ -181,6 +197,48 @@ footer {
 #persona img { 
     height: 250px;
 }
+.grey-box {
+    padding: 1.5%;
+    margin: 3% 15% 3% 15%;
+    box-shadow: 0px 0px 2px white;
+    border-radius: 0.375em;
+}
+#contact-index a {
+    margin: 2%;
+    font-size: 1.3em;
+    padding: 1%;
+    text-decoration: none;
+    transition: 1s;
+    box-shadow: 0px 0px 1px white;
+}
+#contact-index a:hover {
+    box-shadow: 0px 0px 50px white;
+}
+                                            /* Projects Frame organization*/
+.project-box-row figure{
+    width: 150px;
+    height: 125px;
+    margin: 1%;
+    padding: 0%;
+    display: inline-flex;
+    flex-flow: row;
+    box-shadow: 0px 0px 4px white;
+}
+.pic-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, .9);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.frame {
+    position: relative;
+    max-width: 450px;
+    margin: 2% auto;
+}
+                                                /* Bulletin */
 #blog1, #blog2, #blog3 {
     margin: 1%; 
     padding: 5%;
@@ -188,6 +246,7 @@ footer {
     border-color: white;
     border-width: 1px;
 }
+                                                    /* Info */
 #contact {
     display: block;
     margin-bottom: 2%;
@@ -210,13 +269,10 @@ footer {
     height: 50%;
     border: 2px solid rgb(237, 191, 79);
 }
-.corner {
-    border-radius: 30px;
-}
+/* etc */
 .rgb-border {
     margin: 5% 10% 5% 10%;
     padding: 2%;
-    border-radius: 30px;
 }
 .rgb-border h1 {
     text-align: left;
@@ -271,7 +327,19 @@ footer {
     text-align: center;
 }
 
-/* Style Attributes class, id */
+                                                /* Style Attributes class, id */
+                                                    /* Header */
+#contact-index a {
+    margin: 2%;
+    font-size: 1.3em;
+    padding: 1%;
+    text-decoration: none;
+    transition: 1s;
+    box-shadow: 0px 0px 1px white;
+}
+#contact-index a:hover {
+    box-shadow: 0px 0px 50px white;
+}
 #persona { 
     display: inline-block;
     margin-bottom: 25px;
@@ -281,6 +349,37 @@ footer {
 #persona img { 
     height: 250px;
 }
+.grey-box {
+    padding: 1.5%;
+    margin: 3% 20% 3% 20%;
+    box-shadow: 0px 0px 2px white;
+    border-radius: 0.375em;
+}
+                                                /* Projects Frame organization*/
+.project-box-row figure{
+    width: 400px;
+    height: 400px;
+    margin: 1%;
+    padding: 0%;
+    display: inline-flex;
+    flex-flow: row;
+    box-shadow: 0px 0px 4px white;
+}
+.pic-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, .9);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.frame {
+    position: relative;
+    max-width: 450px;
+    margin: 2% auto;
+}
+                                    /* Bulletin */
 #blog1, #blog2, #blog3 {
     margin: 1%; 
     padding: 5%;
@@ -288,15 +387,7 @@ footer {
     border-color: white;
     border-width: 1px;
 }
-#project {
-    display: inline-block;
-    float: inherit; 
-    padding: 12%;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-    margin: 0.3%;
-}
+                                        /* Contact */
 .tel-link {
     background-color: rgb(237, 191, 79);
     padding: 1%;
@@ -304,7 +395,6 @@ footer {
     margin-top: 2%;
     width: 25%;
     text-align: center;
-    border-radius: 30px;
 }
 .tel-link a {
     color: rgb(237, 191, 79);
@@ -334,9 +424,6 @@ footer {
     height: 50%;
     border: 2px solid rgb(237, 191, 79);
 }
-.corner {
-    border-radius: 30px;
-}    
 #footer1, #footer2, #footer3 {
     display: inline-block;
     margin: 0% 1.5%;
@@ -344,7 +431,6 @@ footer {
 .rgb-border {
     margin: 5% 20% 5% 20%;
     padding: 2%;
-    border-radius: 30px;
 }
 .rgb-border h1 {
     text-align: left;
@@ -354,6 +440,7 @@ footer {
     text-align: left;
     margin-bottom: 2%;
 }
+
 }
 /*Media Screen for desktop viewport*/
 @media screen and (min-width: 1123px) {
@@ -409,12 +496,35 @@ footer {
 #persona img { 
     height: 250px;
 }
-
-#project {
-    display: inline-block;
-    padding: 12%;
-    border: 0.1px solid #e5e7eb; 
-    margin: 0.3%;
+.grey-box {
+    padding: 1.5%;
+    margin: 3% 30% 3% 30%;
+    box-shadow: 0px 0px 2px white;
+    border-radius: 0.375em;
+}
+/* Projects Frame organization*/
+.project-box-row figure{
+    width: 400px;
+    height: 400px;
+    margin: 1%;
+    padding: 0%;
+    display: inline-flex;
+    flex-flow: row;
+    box-shadow: 0px 0px 4px white;
+}
+.pic-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, .9);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.frame {
+    position: relative;
+    max-width: 450px;
+    margin: 2% auto;
 }
 .tel-link {
     background-color: rgb(237, 191, 79);
@@ -423,7 +533,6 @@ footer {
     margin-top: 2%;
     width: 25%;
     text-align: center;
-    border-radius: 30px;
 }
 .tel-link a {
     color: rgb(237, 191, 79);
@@ -441,18 +550,16 @@ footer {
     padding: 1%;
     text-decoration: none;
     background:
-    linear-gradient(227deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 50.71%), 
+    linear-gradient(227deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 70) 50.71%), 
     linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 40.71%),
     linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 40.71%);
     color:rgba(250, 250, 250, .90);
+    box-shadow: 1px 1px 7px white;
     transition: 1s;
 }
 #contact a:hover {
-    background-color: yellowgreen;
+    box-shadow: 5px 5px 50px white;
 }
-.corner {
-    border-radius: 30px;
-}    
 #footer1, #footer2, #footer3 {
     display: inline-block;
     margin: 0% 9%;
@@ -460,7 +567,7 @@ footer {
 .rgb-border {
     margin: 5% 30% 5% 30%;
     padding: 2%;
-    border-radius: 30px;
+    box-shadow: 2px 3px 10px beige;
 }
 .rgb-border h1 {
     text-align: left;
@@ -469,5 +576,16 @@ footer {
 .rgb-border p {
     text-align: left;
     margin-bottom: 2%;
+}
+#contact-index a {
+    margin: 2%;
+    font-size: 1.3em;
+    padding: 1%;
+    text-decoration: none;
+    transition: 1s;
+    box-shadow: 0px 0px 2px white;
+}
+#contact-index a:hover {
+    box-shadow: 0px 0px 20px white;
 }
 }
