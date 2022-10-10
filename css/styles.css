@@ -448,7 +448,7 @@ footer {
     text-align: center;
     font-family: 'Ubuntu Mono';
     padding-bottom: 0.1%;   
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .article-grey-box-bottom:hover {
     box-shadow: 0px 0px 10px white;
