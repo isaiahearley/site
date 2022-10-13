@@ -8,6 +8,7 @@
 <html lang="en">
 <head>
     <title>bsian.ai</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png"> 
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,19 @@
         <h1>What does the Future of AI Look Like?</h1>
     </header>
 
-    <nav>
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="../html/index.html">Home</a>
+            <a href="../html/projects.html">Projects</a>
+            <a href="../html/blog.html">Bulletin</a>
+            <a href="../html/work.html">Info</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div class="hamburger-icon">&#9776;</div>
+        </a>
+    </nav>
+
+    <nav class="tablet-desktop">
             <ul> 
                 <li><a href="../html/index.html">Home</a></li>
                 <li><a href="../html/projects.html">Projects</a></li>
@@ -61,7 +74,7 @@
 
                 <div id="footer2">
                     <p>&copy; Isaiah Earley. All Rights Reserved.</p>
-                    <p>Email me @ <a href="mailto:iearley@my.wilmu.edu">iearley@my.wilmu.edu</a></p>
+                    <p>Email me @ <a href="mailto:pokes135@gmail.com">pokes135@gmail.com</a></p>
                     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="isaiahe" data-description="Support me on Buy me a coffee!" data-message="" data-color="#EEBF4F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
                 </div>
 
@@ -70,7 +83,8 @@
                 </div>
         </div>  
     </footer>
-
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="isaiahe" data-description="Support me on Buy me a coffee!" data-message="" data-color="#EEBF4F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    <script src="../scripts/index.js"></script>
 </body>
 
 </html>

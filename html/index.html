@@ -6,19 +6,36 @@
 <html lang="en">
     <head>
         <title>bsian.ai | Home</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png"> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/styles.css" media="screen">
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        
     </head>
     <body>
         <header>
-            <h1>Hello, I'm Isaiah Earley &#128075;</h1> 
+            <div>
+                <h1>Hello, &#128075; I'm Isaiah Earley </h1> 
+            </div>
         </header>
-        <nav>
+
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="../html/index.html">Home</a>
+                <a href="../html/projects.html">Projects</a>
+                <a href="../html/blog.html">Bulletin</a>
+                <a href="../html/work.html">Info</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div class="hamburger-icon">&#9776;</div>
+            </a>
+        </nav>
+
+        <nav class="tablet-desktop">
                 <ul> 
-                    <li><a style="text-decoration: underline white 2px; color: white;" href="../html/index.html">Home</a></li>
+                    <li><a style="text-decoration: underline white 2px; color: white;" href="../docs/index.html">Home</a></li>
                     <li><a href="../html/projects.html">Projects</a></li>
                     <li><a href="../html/blog.html">Bulletin</a></li> 
                     <li><a href="../html/work.html">Info</a></li>
@@ -41,17 +58,8 @@
                     </figcaption>
                 </article>
                 <aside class="grey-box">
-                    <h2>That's enough about me. Let's talk about you.</h2>
+                    <h2><a href="work.html">That's enough about me. Let's talk about you.</a></h2>
                 </aside>
-                <div id="contact-index">
-                        <div class="tablet-desktop">
-                            <a class="small-corner" href="mailto:iearley@my.wilmu.edu">Forward an Email</a> &nbsp;
-                        </div>
-                    
-                    <div class="mobile">
-                        <a class="small-corner" href="tel:689-214-8324">Send a Text</a>
-                    </div>
-                </div> 
         </main>
         <footer>    
                 <!--create class to emphasize text -->
@@ -60,13 +68,13 @@
                         </div>
                         <div id="footer2">
                             <p>&copy; Isaiah Earley. All Rights Reserved.</p>
-                            <p>Email me @ <a href="mailto:iearley@my.wilmu.edu">iearley@my.wilmu.edu</a></p>
-                            <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="isaiahe" data-description="Support me on Buy me a coffee!" data-message="" data-color="#EEBF4F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+                            <p>Email me @ <a href="mailto:pokes135@gmail.com">pokes135@gmail.com</a></p>
                         </div>
                         <div class="tablet-desktop" id="footer3">
                             <p><a class="shift" href="https://github.com/isaiahearley" target="_blank">GitHub</a></p>
                         </div>
-                        <span class="material-symbols-outlined footer-arrow"></span>
         </footer>
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="isaiahe" data-description="Support me on Buy me a coffee!" data-message="" data-color="#EEBF4F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+        <script src="../scripts/index.js"></script>
     </body>
 </html>
