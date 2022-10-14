@@ -683,6 +683,39 @@ article p {
 }
 
                                             /* info */
+.form-header {
+    border: 1px solid white; 
+    margin: 0% 25%;
+    padding: 3%;
+}                                            
+form {
+    margin: 0% 30%;
+} 
+input {
+    background-color: rgb(23, 23, 23);
+    border: 1px solid white;
+    padding: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fs1{
+    margin: 4% 3%;
+    padding: 100px 50px;
+    border: 1px solid white;
+}
+.fs2 {
+    margin: 4% 5%;
+    border: 1px solid white;
+}
+.fname, .lname, .email {
+    margin-bottom: 10%;
+    font-size: 1.1em;
+}
+.btn {
+    background-color: rgb(237, 191, 79);
+    color: black;
+    grid-column: 1 / span 3;
+}
+
 .tel-link {
     background-color: rgb(237, 191, 79);
     padding: 1%;
