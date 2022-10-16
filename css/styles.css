@@ -83,7 +83,9 @@ footer {
                 linear-gradient(127deg, rgba(0, 255, 0, 0.6), rgba(0, 255, 0, 0) 80.71%),
                 linear-gradient(336deg, rgba(0, 0, 255, 0.6), rgba(0, 0, 255, 0) 80.71%);
 }
-
+#form {
+    margin: 10%;
+}
 .grey-box h1{
     text-align: left;
 }
@@ -92,14 +94,7 @@ footer {
     font-style: italic;
     background-color: rgba(237, 191, 79, .7);
 }
-#map {
-    padding: 0%;
-    width: 500px;
-    height: 500px;
-    border: 2px solid white;
-    box-shadow: 0px 0px 50px green;
-    margin-top: 5%;
-}
+
 article ul {
     line-height: 2em;
 }
@@ -265,6 +260,9 @@ footer {
     max-width: 450px;
     margin: 2% auto;
 }
+.frame-pic {
+    object-fit: cover;
+}
 
                                                 /* Bulletin */
 #blog1, #blog2, #blog3 {
@@ -308,7 +306,7 @@ article p {
                                                     /* Info */
 #contact {
     display: block;
-    margin-bottom: 2%;
+    margin: 20% 0% 5% 0%;
 }
 #contact a {
     margin: 2%;
@@ -325,8 +323,9 @@ article p {
     color: rgb(23, 23, 23);
 }
 #map {
-    height: 50%;
+    height: 200px;
     border: 2px solid rgb(237, 191, 79);
+    margin-top: 10%;
 }
 /* etc */
 .rgb-border {
@@ -436,6 +435,9 @@ footer {
     text-align: center;
     font-size: 1.1em;
 }
+.frame-pic {
+    object-fit: cover;
+}
 .frame {
     position: relative;
     max-width: 450px;
@@ -505,16 +507,16 @@ article p {
     padding: 1%;
     text-decoration: none;
     background: 
-    linear-gradient(127deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 50.71%), 
-    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 30.71%),
-    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 60.71%);
-    color:rgba(250, 250, 250, .90);
+    linear-gradient(127deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), 
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 10.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 10.71%);
+    color:rgba(250, 250, 250, .70);
 }
 #contact a:hover {
-    color: rgb(23, 23, 23);
+    color: rgba(250, 250, 250, 1)
 }
 #map {
-    height: 50%;
+    height: 300px;
     border: 2px solid rgb(237, 191, 79);
 }
 #footer1, #footer2, #footer3 {
@@ -625,10 +627,12 @@ footer {
 }
 .frame {
     position: relative;
-    max-width: 450px;
-    margin: 2% auto;
+    max-width: 400px;
     transition: 0.5s;
     box-shadow: 0px 0px 0px white;
+}
+.frame-pic {
+    object-fit: cover;
 }
 .frame:hover {
     opacity: 1;
@@ -679,6 +683,43 @@ article p {
 }
 
                                             /* info */
+.form-header {
+    border: 1px solid white; 
+    margin: 0% 25%;
+    padding: 3%;
+}                                            
+form {
+    margin: 0% 30%;
+} 
+input {
+    background-color: rgb(23, 23, 23);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fs1{
+    margin: 4% 3%;
+    padding: 100px 50px;
+    border: 1px solid white;
+}
+.fs2 {
+    margin: 4% 5%;
+    border: 1px solid white;
+}
+.fname, .lname, .email {
+    margin-bottom: 10%;
+    padding: 3%;
+    font-size: 1.1em;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.btn {
+    background-color: rgb(237, 191, 79);
+    color: black;
+    grid-column: 1 / span 3;
+}
+
 .tel-link {
     background-color: rgb(237, 191, 79);
     padding: 1%;
@@ -703,7 +744,7 @@ article p {
     padding: 1%;
     text-decoration: none;
     background:
-    linear-gradient(227deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 70) 50.71%), 
+    linear-gradient(227deg, rgba(238, 153, 153, 0.8), rgba(255, 0, 0, 70) 50.71%), 
     linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 40.71%),
     linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 40.71%);
     color:rgba(250, 250, 250, .90);
@@ -741,5 +782,13 @@ article p {
 }
 #contact-index a:hover {
     box-shadow: 0px 0px 20px white;
+}
+#map {
+    padding: 0%;
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 50px green;
+    margin-top: 5%;
 }
 }

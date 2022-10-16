@@ -56,7 +56,48 @@
             </div>
         </div>
 
+       <div id="form">
+            <div class="form-header"> 
+                <h3>Like what you see? Enter your info for future updates!</h3>
+            </div>
+                <form>
+                    <fieldset class="fs1">
+                        
+                        <legend>Visitor Information</legend>
+
+                            <div class="fname">
+                                <label for="fName">First Name</label>
+                                <input type="text" id="fName" name="fName" required>
+                            </div>
+
+                            <div class="lname">
+                                <label for="lName">Last Name</label>
+                                <input type="text" id="lName" name="lName" required>
+                            </div>
+
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                    </fieldset>
+
+                    <fieldset class="fs2">
+                            <label for="reference">How did you find this site?</label>
+                                <select name="reference" id="reference">
+                                    <option value="friend">Friend</option>
+                                    <option value="instagram">Instagram</option>
+                                    <option value="google">Google</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="bugs">Found bugs?</label>
+                                <textarea id="questions" name="questions" rows="4" cols="30"></textarea>
+                    </fieldset>
+                    <input type="submit" id="submit" value="submit" class="btn">
+                </form>
+       </div>
+
         <div id="contact">
+            
             <p>  
                 <a class="corner" href="mailto:iearley@my.wilmu.edu">Shoot an Email</a> &nbsp;
                 <a class="corner" href="tel:689-214-8324">Send a Text</a>
