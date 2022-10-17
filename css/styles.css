@@ -37,6 +37,10 @@ header {
     border-color: white;
     border-style: solid;
 }
+table {
+    margin: 0% 20% 0% 20%;
+}
+
 footer {
     border-top: 1px solid white;
     margin: 0% 6% 0% 6%; 
@@ -73,10 +77,10 @@ footer {
     margin-bottom: 8%;
 }
 .contact-img-tablet-desktop { 
-    width: 40%;
+    max-width: 30%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 8%;
+    margin-bottom: 1%;
 }
 .rgb-border {
     background: linear-gradient(217deg, rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0) 80.71%), 
@@ -695,8 +699,9 @@ input {
     background-color: rgb(23, 23, 23);
     border: 1px solid white;
     border-radius: 10px;
-    padding: 1%;
+    padding: 3%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
 }
 .fs1{
     margin: 4% 3%;
@@ -708,11 +713,20 @@ input {
     border: 1px solid white;
 }
 .fname, .lname, .email {
-    margin-bottom: 10%;
-    padding: 3%;
-    font-size: 1.1em;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+#reference {
+    margin: 10% 0% 10% 0%;  
+    background-color: rgb(23, 23, 23);
+}
+#comments {
+    width: 80%;
+    padding: 5%;
+    margin: 3%;
+    background-color: rgb(23, 23, 23);
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .btn {
     background-color: rgb(237, 191, 79);
