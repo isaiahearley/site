@@ -420,6 +420,11 @@ input {
 .hamburger-icon {
     font-size: 250%;
 }
+footer {
+    border-top: 1px solid white;
+    margin: 0% 6% 10% 6%; 
+    padding: 1%;
+}
 }
 
 /* Style rules for tablet viewport */
