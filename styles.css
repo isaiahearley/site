@@ -45,6 +45,7 @@ table {
     margin-top: 10%;
     border-collapse: collapse;
     width: 100%;
+    margin-bottom: 10%;
 }
 table, td, th {
     padding: .5em;
